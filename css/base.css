@@ -1,0 +1,32 @@
+/* 
+Title: Assignment 6.3 bioSite Development 
+Author: Brittaney Perry-Morgan 
+Date: Sunday, September 7th, 2025 
+Description: Module 6 Assignment 6.3 - bioSite Development  Styles
+
+This is the base file. It's used, in addition to the other CSS files, to style the HTML elements. The styles included in
+this file are the most basic styles that are applied to the HTML elements.
+*/
+
+:root {
+    /* Colors - Basic Colors */
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+    --color-black-opacity-50: rgba(0, 0, 0, 0.5);
+    --color-black-opacity-75: rgba(0, 0, 0, 0.75);
+    --color-black-opacity-100: rgba(0, 0, 0, 1);
+
+    --color-gray: #808080;
+    --color-gray-opacity-50: rgba(128, 128, 128, 0.5);
+    --color-gray-opacity-75: rgba(128, 128, 128, 0.75);
+    --color-gray-opacity-100: rgba(128, 128, 128, 1);
+
+    /* Colors - Color Palette */
+    --color-italian-crimson: #C1272D;
+    /* --color-italian-crimson- */
+    --color-basil-green: #008C45;
+    --color-cannoli-cream: #F8F4E3;
+    --color-obsidian-black: #1A1A1A;
+    --color-phantom-silver: #B0B0B0;
+}

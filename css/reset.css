@@ -1,0 +1,41 @@
+/* 
+Title: Assignment 6.3 bioSite Development 
+Author: Brittaney Perry-Morgan 
+Date: Sunday, September 7th, 2025 
+Description: Module 6 Assignment 6.3 - bioSite Development  Styles
+
+This file is a reset file. It's a set of CSS rules that aim to override the default styles provided by web browsers. The purpose of a CSS reset is to establish a consistent design across different browsers by removing any default
+styling that may vary between them.
+*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+    font-family: Museo Slab, serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}

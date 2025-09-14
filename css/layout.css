@@ -22,8 +22,6 @@ header {
     right: 0;
     z-index: 1000;
     background-color: var(--color-obsidian-black);
-    border-bottom: 3px solid;
-    border-image: linear-gradient(to right, var(--color-basil-green) 0%, var(--color-basil-green) 33.33%, var(--color-white) 33.33%, var(--color-white) 66.66%, var(--color-italian-crimson) 66.66%, var(--color-italian-crimson) 100%) 1;
 }
 
 nav {
@@ -33,6 +31,17 @@ nav {
     padding: 1rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
+}
+
+nav::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(to right, var(--color-basil-green) 0%, var(--color-basil-green) 33.33%, var(--color-white) 33.33%, var(--color-white) 66.66%, var(--color-italian-crimson) 66.66%, var(--color-italian-crimson) 100%);
 }
 
 .nav-brand h1 {
@@ -48,7 +57,7 @@ nav {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .nav-links a {

@@ -22,8 +22,8 @@ header {
     right: 0;
     z-index: 1000;
     background-color: var(--color-obsidian-black);
-    border-bottom: 3px solid transparent;
-    border-image: linear-gradient(to right, var(--color-basil-green), var(--color-italian-crimson)) 1;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to right, var(--color-basil-green) 0%, var(--color-basil-green) 50%, var(--color-italian-crimson) 50%, var(--color-italian-crimson) 100%) 1;
 }
 
 nav {
@@ -40,8 +40,7 @@ nav {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-white);
-    text-decoration: underline;
-    text-decoration-color: var(--color-basil-green);
+    text-decoration: none;
 }
 
 .nav-links {

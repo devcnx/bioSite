@@ -23,7 +23,7 @@ header {
     z-index: 1000;
     background-color: var(--color-obsidian-black);
     border-bottom: 3px solid;
-    border-image: linear-gradient(to right, var(--color-basil-green) 0%, var(--color-basil-green) 50%, var(--color-italian-crimson) 50%, var(--color-italian-crimson) 100%) 1;
+    border-image: linear-gradient(to right, var(--color-basil-green) 0%, var(--color-basil-green) 33.33%, var(--color-white) 33.33%, var(--color-white) 66.66%, var(--color-italian-crimson) 66.66%, var(--color-italian-crimson) 100%) 1;
 }
 
 nav {

@@ -79,7 +79,7 @@ nav::after {
     padding-top: 100px; /* Account for fixed header */
     max-width: 1400px;
     margin: 0 auto;
-    gap: 1rem;
+    gap: 12rem;
     align-items: center;
 }
 

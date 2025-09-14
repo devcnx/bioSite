@@ -4,3 +4,6 @@
 # Ideas, Sketches, and Inspiration
 ideas/
 .env
+
+# Node
+node_modules/

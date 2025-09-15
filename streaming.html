@@ -17,21 +17,22 @@
         <meta name="keywords" content="Michael Lucido, Streaming, Content Creation, Gaming, Community, Twitch, YouTube">
         <meta name="author" content="Brittaney Perry-Morgan">
 
-        <!-- Fonts: Adobe Fonts: Quicksand, Museo, Museo Sans, Museo Slab -->
+        <!-- Adobe Fonts (Typekit) -->
         <link rel="stylesheet" href="https://use.typekit.net/dnx5gwu.css">
-
         <!-- Favicon -->
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-
-        <!-- CSS: Consolidated Styles -->
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
+    <body class="streaming__body">
 
         <header class="header">
             <nav class="header__nav" aria-label="Main navigation">
-                <div class="header__container">
+                <div class="container-fluid header__container">
                     <div class="header__brand">
                         <h6>Michael Anthony Lucido</h6>
                     </div>
@@ -45,14 +46,18 @@
                     <li class="header__menu-item"><a href="horror.html" class="header__link">Horror</a></li>
                     <li class="header__menu-item"><a href="contact.html" class="header__link">Contact</a></li>
                 </ul>
-                <div class="header__flag" aria-hidden="true">Flag</div>
+                <div class="header__flag" aria-hidden="true">
+                    <div class="flag-green"></div>
+                    <div class="flag-white"></div>
+                    <div class="flag-red"></div>
+                </div>
             </nav>
         </header>
 
         <main>
 
             <section id="streaming" class="streaming">
-                <div class="streaming__container">
+                <div class="container-fluid streaming__container">
                     <h1>Streaming</h1>
                     <p>Insert text here.</p>
 
@@ -141,10 +146,11 @@
         </main>
 
         <footer>
-            <div class="footer__container">
+            <div class="container-fluid footer__container">
                 <p class="footer__copyright">&copy; 2025 Michael Anthony Lucido. All rights reserved.</p>
             </div>
         </footer>
+
     </body>
 
 </html>

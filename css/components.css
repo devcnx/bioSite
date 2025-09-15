@@ -3,4 +3,11 @@ Title: Assignment 6.3 bioSite Development
 Author: Brittaney Perry-Morgan 
 Date: Sunday, September 7th, 2025 
 Description: Module 6 Assignment 6.3 - bioSite Development  Styles
+
+This file houses the CSS for styling individual UI elements (e.g., buttons, headers, etc.).
 */
+
+img {
+    width: 200px;
+    height: auto;
+}

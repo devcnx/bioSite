@@ -25,7 +25,6 @@ body {
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
     line-height: 1;
 }
 
@@ -36,7 +35,6 @@ h4,
 h5,
 h6 {
     line-height: 1.2;
-    font-family: Museo Slab, serif;
 }
 
 ol,

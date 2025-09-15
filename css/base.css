@@ -167,3 +167,16 @@ header h6 {
 .header__flag .flag-red {
     background-color: var(--color-italian-crimson);
 }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: var(--color-page-background-dark-blue);
+    color: var(--color-white);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.85rem;
+    display: flex;
+
+}

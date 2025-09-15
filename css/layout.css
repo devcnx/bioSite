@@ -6,3 +6,23 @@ Description: Module 6 Assignment 6.3 - bioSite Development  Styles
 
 This file houses the CSS used for the layout of the bioSite (the page layout and structure, e.g., grid, flexbox).
 */
+
+.home__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.home__hero,
+.home__info {
+    flex: 1;
+}
+
+.home__hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
